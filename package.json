@@ -2,9 +2,15 @@
     "name": "typesafe-exception",
     "version": "1.0.0",
     "description": "Type-safe serialization-friendly Exception class",
-    "main": "out/main/index.js",
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        "import": "./out/main/index.js"
+    },
+    "main": "./out/main/index.js",
+    "types": "./out/main/index.d.ts",
     "files": [
-        "out/main/**/*"
+        "./out/main/**/*"
     ],
     "scripts": {
         "clean": "rm -rf out *.tsbuildinfo",

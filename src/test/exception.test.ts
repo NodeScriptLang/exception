@@ -1,6 +1,6 @@
 import assert from 'assert';
 
-import { Exception } from '../main';
+import { Exception } from '../main/index.js';
 
 describe('Exception', () => {
 
