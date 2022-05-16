@@ -17,7 +17,9 @@
         "dev": "tsc -b -w",
         "compile": "tsc -b",
         "lint": "eslint --ext=.js,.ts,.vue --cache .",
-        "test": "NODE_ENV=test mocha"
+        "test": "NODE_ENV=test mocha",
+        "version": "npm run compile",
+        "postversion": "npm publish --access=public && git push --tags origin main"
     },
     "repository": {
         "type": "git",
