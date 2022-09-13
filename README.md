@@ -7,7 +7,7 @@ Simple serialization-friendly Exception class, with opt-in type-safe details, nu
 ## Examples
 
 ```ts
-import { Exception } from 'typesafe-exception';
+import { Exception } from '@flexent/exception';
 
 // Sometimes it's handy to put all app errors in `errors.ts`, for better centralization and visibility
 
